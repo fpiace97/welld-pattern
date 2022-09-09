@@ -8,8 +8,6 @@ Run the application using **mvn spring-boot:run** under the folder project.
 
 The application run under port 8080.
 
-## Quick Start without Maven
-
 ## Methods
 
 The service expose the following methods:
