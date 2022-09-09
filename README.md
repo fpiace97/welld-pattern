@@ -14,7 +14,7 @@ The application run under port 8080.
 
 The service expose the following methods:
 
-    1. POST /point: add point to space
+    1. POST /point: add point to space - no duplicates 
     2. GET /space: return all points in the space
     3. DELETE /space: delete all points from space
     4. GET /lines/{n}: return all lines with points having n or more point - n>1
@@ -33,7 +33,7 @@ Response is build with a status (OK/KO) and a message.
          {
             "x": 1,
             "y": "1"
-            }
+         }
    - Request:
     
          {
@@ -67,3 +67,5 @@ Response is build with a status (OK/KO) and a message.
 
 
 
+### LOG
+Logs is available under /logs folder

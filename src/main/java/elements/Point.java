@@ -6,8 +6,13 @@ import java.util.Comparator;
 
 @Data
 public class Point implements Comparable<Point> {
-    private final int x;     // x-coordinate of this point
-    private final int y;     // y-coordinate of this point
+    private int x;     // x-coordinate of this point
+    private int y;     // y-coordinate of this point
+
+    /*
+    * Empty constructor for Jackson
+    * */
+    public Point(){}
 
     public Point(int x, int y) {
         this.x = x;
@@ -60,4 +65,8 @@ public class Point implements Comparable<Point> {
         }
     }
 
+    public String toString() {
+
+        return "(" + x + ", " + y + ")";
+    }
 }
