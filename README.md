@@ -1,16 +1,16 @@
-#Pattern recognition
+# Pattern recognition
 
-##About
+## About
 A REST API to determine every line that contains N or more point and return all point involved.
 
-##Quick Start with Maven
+## Quick Start with Maven
 Run the application using **mvn spring-boot:run** under the folder project.
 
 The application run under port 8080.
 
-##Quick Start without Maven
+## Quick Start without Maven
 
-##Methods
+## Methods
 
 The service expose the following methods:
 
@@ -19,13 +19,13 @@ The service expose the following methods:
     3. DELETE /space: delete all points from space
     4. GET /lines/{n}: return all lines with points having n or more point - n>1
 
-##Documentation
+## Documentation
 Documentation is available  at **http://localhost:8080/swagger-ui/**
 
-###Response
+### Response
 Response is build with a status (OK/KO) and a message. 
 
-####Examples
+#### Examples
 
 1. /point :
    - Request:
